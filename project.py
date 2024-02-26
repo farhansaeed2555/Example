@@ -36,7 +36,7 @@ if st.button("Start Alarm"):
     while True:
         current_time = time.localtime()
         if current_time.tm_hour == alarm_time.hour and current_time.tm_min ==alarm_time.minute:
-            st.write("Wake up! Its time!"
+            st.write("Wake up! Its time!")
             snooze_time = current_time.tm_min + snooze_duration
             break
         time.sleep(1)  # Check every minute
