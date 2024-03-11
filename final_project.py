@@ -1,10 +1,6 @@
 import streamlit as st
 import time
 from datetime import datetime, timedelta
-from playsound import playsound
-
-def play_alarm_sound():
-    playsound("sound.wav")
 
 st.set_page_config(
     page_title="Alarm Clock",
